@@ -1,4 +1,9 @@
 /*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
+/*
  * Hyperscan example program 1: simplegrep
  *
  * This is a simple example of Hyperscan's most basic functionality: it will
@@ -12,7 +17,7 @@
  *
  * Build instructions:
  *
- *     go build github.com/flier/gohs/examples/simplegrep
+ *     go build github.com/sniperkit/snk.fork.gohs/examples/simplegrep
  *
  * Usage:
  *
@@ -32,7 +37,7 @@ import (
 	"io/ioutil"
 	"os"
 
-	"github.com/flier/gohs/hyperscan"
+	"github.com/sniperkit/snk.fork.gohs/hyperscan"
 )
 
 var (

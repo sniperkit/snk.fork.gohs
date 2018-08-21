@@ -1,4 +1,9 @@
 /*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
+/*
 
 	Hyperscan (https://github.com/01org/hyperscan) is a software regular expression matching engine designed with high performance and flexibility in mind.	It is implemented as a library that exposes a straightforward C API.
 

@@ -1,4 +1,9 @@
 /*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
+/*
  * Hyperscan example program 2: pcapscan
  *
  * This example is a very simple packet scanning benchmark. It scans a given
@@ -9,7 +14,7 @@
  *
  * Build instructions:
  *
- *     go build github.com/flier/gohs/examples/pcapscan
+ *     go build github.com/sniperkit/snk.fork.gohs/examples/pcapscan
  *
  * Usage:
  *
@@ -38,10 +43,11 @@ import (
 	"strings"
 	"time"
 
-	"github.com/flier/gohs/hyperscan"
 	"github.com/google/gopacket"
 	"github.com/google/gopacket/layers"
 	"github.com/google/gopacket/pcap"
+
+	"github.com/sniperkit/snk.fork.gohs/hyperscan"
 )
 
 var (

@@ -1,14 +1,9 @@
-package hyperscan
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
 
-import (
-	"errors"
-	"fmt"
-	"reflect"
-	"runtime"
-	"sort"
-	"strings"
-	"unsafe"
-)
+package hyperscan
 
 /*
 #cgo pkg-config: libhs
@@ -102,6 +97,16 @@ hs_error_t hs_reset_and_expand_stream_cgo(hs_stream_t *stream, const char *data,
 }
 */
 import "C"
+
+import (
+	"errors"
+	"fmt"
+	"reflect"
+	"runtime"
+	"sort"
+	"strings"
+	"unsafe"
+)
 
 // Pattern flags
 type CompileFlag uint
